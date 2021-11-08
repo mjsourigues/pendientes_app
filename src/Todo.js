@@ -47,7 +47,7 @@ function Todo(props) {
                 <Fade in={open}>
                     <Box sx={style}>
                         <Typography id="transition-modal-title" variant="h6" component="h2">
-                            <h1>Modal</h1>
+                            <h1>Modificación</h1>
                         </Typography>
                         <Typography id="transition-modal-description" sx={{ mt: 2 }}>
                             <input placeholder={props.todo.todo} value={input} onChange={event=> setInput(event.target.value)}></input>
@@ -64,7 +64,8 @@ function Todo(props) {
                 </ListItem>
                 <button onClick={e=>setOpen(true)}>Editar</button>
                 <DeleteIcon onClick={event => 
-                    db.collection("todos").doc(props.todo.id).delete()}></DeleteIcon>
+                    db.collection("todos").doc(props.todo.id).delete()}>
+                </DeleteIcon>
             </List>
         </>
         //React Fragment

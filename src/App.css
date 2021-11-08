@@ -1,5 +1,26 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App h1{
+  font-size: 80px;
+  background-color: darkgray;
+  height: 105px;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.App form{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-logo {
@@ -12,6 +33,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 
 .App-header {
   background-color: #282c34;
@@ -36,3 +58,5 @@
     transform: rotate(360deg);
   }
 }
+
+
