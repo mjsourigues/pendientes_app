@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/pendientes_app/static/css/main.a4d817d2.chunk.css",
+    "main.js": "/pendientes_app/static/js/main.dc29a03e.chunk.js",
+    "main.js.map": "/pendientes_app/static/js/main.dc29a03e.chunk.js.map",
+    "runtime-main.js": "/pendientes_app/static/js/runtime-main.df1b373a.js",
+    "runtime-main.js.map": "/pendientes_app/static/js/runtime-main.df1b373a.js.map",
+    "static/js/2.3963df33.chunk.js": "/pendientes_app/static/js/2.3963df33.chunk.js",
+    "static/js/2.3963df33.chunk.js.map": "/pendientes_app/static/js/2.3963df33.chunk.js.map",
+    "static/js/3.c792f2bf.chunk.js": "/pendientes_app/static/js/3.c792f2bf.chunk.js",
+    "static/js/3.c792f2bf.chunk.js.map": "/pendientes_app/static/js/3.c792f2bf.chunk.js.map",
+    "index.html": "/pendientes_app/index.html",
+    "static/css/main.a4d817d2.chunk.css.map": "/pendientes_app/static/css/main.a4d817d2.chunk.css.map",
+    "static/js/2.3963df33.chunk.js.LICENSE.txt": "/pendientes_app/static/js/2.3963df33.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.df1b373a.js",
+    "static/js/2.3963df33.chunk.js",
+    "static/css/main.a4d817d2.chunk.css",
+    "static/js/main.dc29a03e.chunk.js"
+  ]
+}
